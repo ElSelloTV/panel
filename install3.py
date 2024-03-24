@@ -28,7 +28,7 @@ def generate(length=19): return ''.join(random.choice(string.ascii_letters + str
 
 def getIP():
     # Retorna directamente la dirección IP pública de tu servidor
-    return "149.50.137.176"
+    return "REEMPLAZAR_IP_PUBLICA_DE_SERVIDOR"
 
 def getLanIP():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
