@@ -2,6 +2,8 @@
 This is an installation mirror for xtream ui software on Ubuntu 20.04.
 Includes NGINX 1.19.2 and PHP 7.3.25.
 
+Es necesario tener Python 3 y utilizar el archivo install3.py
+
 ### Update 08/03/2021: ###
 - No planned update to come
 
