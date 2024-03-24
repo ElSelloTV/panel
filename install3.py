@@ -27,8 +27,8 @@ class col:
 def generate(length=19): return ''.join(random.choice(string.ascii_letters + string.digits) for i in range(length))
 
 def getIP():
-    ip = urlopen('http://ip.42.pl/raw').read().decode()
-    return ip
+    # Retorna directamente la dirección IP pública de tu servidor
+    return "149.50.137.176"
 
 def getLanIP():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
