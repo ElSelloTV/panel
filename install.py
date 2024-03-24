@@ -26,7 +26,7 @@ def generate(length=19): return ''.join(random.choice(string.ascii_letters + str
 
 def getIP():
     # Retorna directamente la dirección IP pública de tu servidor
-    return "149.50.137.176"
+    return "127.0.0.1"
 
 def getVersion():
     try: return subprocess.check_output("lsb_release -d".split()).split(":")[-1].strip()
